@@ -1,3 +1,8 @@
+Задание:
+Фильтр по категории: только Office Supplies
+Анализ продаж по месяцам
+Отчет по клиентам
+
 
 1. скрипты с mySQL - phpmyadmin
 
@@ -75,3 +80,8 @@ CREATE TABLE IF NOT EXISTS etl_error_log (
 );
 ```
 
+2. Запуск Pentaho
+
+```
+код
+```
