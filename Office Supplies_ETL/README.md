@@ -4,15 +4,9 @@
 Отчет по клиентам
 
 
-1. скрипты с mySQL - phpmyadmin
+1. скрипты в mySQL - phpmyadmin
 
--- Создание базы данных
-```
-CREATE DATABASE IF NOT EXISTS etl_sales_db;
-USE etl_sales_db;
-```
-
----1. Основная таблица для отфильтрованных данных (Office Supplies)
+---1. Основная таблица для отфильтрованных данных (Office Supplies) - не нужно!!!
 ```
 CREATE TABLE IF NOT EXISTS sales_office_supplies (
     row_id INT PRIMARY KEY,
@@ -90,9 +84,9 @@ https://github.com/BosenkoTM/workshop-on-ETL/blob/main/practice/lw_01.md#2-%D0%B
 ```
 cd ~/Downloads/lab_etl/pdi-ce-9.4.0.0-343/data-integration
 ```
-```
-chmod +x spoon.sh
-```
+
 ```
 ./spoon.sh
 ```
+
+3. В файлах не забываем менять на свою БД!!!
